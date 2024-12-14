@@ -15,8 +15,8 @@ import CartSidebar from "./components/CartSidebar";
 import CheckoutPage from "./components/CheckoutPage";
 import PaymentSuccess from "./components/PaymentSuccess";
 import PaymentFailure from "./components/PaymentFailure";
-import Login from "./components/Login";
-import Register from "./components/Register";
+import Login from "./components/login";
+import Register from "./components/register";
 import { Skeleton } from "./components/ui/skeleton";
 import { checkAuth } from "./store/auth-slice";
 const App = () => {
